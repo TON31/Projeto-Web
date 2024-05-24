@@ -1,0 +1,196 @@
+/* Basic CSS reset */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    background-color: rgb(255, 250, 241);
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bg_nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #202020;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    height: 75px;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    margin-right: 15px;
+}
+.menu ul li a{
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(255, 250, 241);
+}
+.menu .timao{
+    padding: 10px;
+    background-color: rgb(146, 0, 0);
+    border-radius: 10px;
+}
+.menu li:hover a{
+    transition: 0.5s;
+    padding: 10px;
+    background-color: rgb(146, 0, 0);
+    border-radius: 10px;
+}
+.logo{
+    color: rgb(255, 250, 241);
+}
+.banner img{
+    width: 100%;
+}
+.banner::before {
+    transition: opacity 1s;
+}
+  
+.corinthians:hover {
+    opacity: 1;
+    filter: brightness(30%);
+    transition:1s;
+}
+.banner:hover .title {
+    color:  rgb(255, 250, 241);
+    transition:1s;
+}
+.banner .title{
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: transparent;
+    font-size: 30px;
+    text-align: center;
+}
+.txt{
+    float: right;
+    width: 30%;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+}.conteudo .title{
+    font-size: 30px;
+}
+.sobre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sobre h1{
+    font-size: 25px;
+}
+.logo_times{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+.logo_real{
+    width: 150px;
+}
+.logo_times img{
+    width: 200px;
+}
+.logo_times img{
+    width: 200px;
+}
+
+.titulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulos div{
+    margin: 40px;
+    align-items: left;
+}
+.titulos h3{
+    margin: 2px;
+}
+.elenco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.elenco div{
+    margin: 40px;
+}
+.elenco h3{
+    margin: 2px;
+}
+.historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.historia h1{
+    font-size: 30px;
+}
+.historia img{
+    width: 300px;
+    float: left;
+    border-radius: 15px;
+    margin-bottom:10px;
+    margin-right: 10px
+}
+.historia .img_bayer{
+    width: 200px;
+}
+.historia .img{
+    width: 200px;
+    float: right;
+}
+.historia p{
+    margin: 10px;
+}
+footer{
+    height: 200px;
+    background-color: #161616;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: auto;
+
+}
+.footer{
+    margin-top: 75px;
+}
+footer h2{
+    font-size: 30px;
+}
+footer h5{
+    font-size: 15px;
+}
